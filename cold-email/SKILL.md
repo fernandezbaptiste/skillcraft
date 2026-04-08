@@ -62,12 +62,17 @@ Interest-based CTAs ("Worth exploring?" / "Would this be useful?") beat meeting 
 - Mid-level: more specific value, slightly more detail
 - Technical: precise, no fluff, respect their intelligence
 
-**What it should NOT sound like:**
+**Avoid these patterns — they signal template or AI-generated email:**
 
-- A template with fields swapped in
-- A pitch deck compressed into paragraph form
-- A LinkedIn DM from someone you've never met
-- An AI-generated email (avoid the telltale patterns: "I hope this email finds you well," "I came across your profile," "leverage," "synergy," "best-in-class")
+- Opening with "I hope this email finds you well" or "My name is X and I work at Y"
+- Jargon: "synergy," "leverage," "circle back," "best-in-class," "leading provider"
+- Feature dumps — one proof point beats ten features
+- HTML, images, or multiple links
+- Fake "Re:" or "Fwd:" subject lines
+- Identical templates with only {{FirstName}} swapped
+- Asking for 30-minute calls in first touch
+- "Just checking in" follow-ups
+- Sounding like a pitch deck compressed into paragraph form or a LinkedIn DM from a stranger
 
 ---
 
@@ -83,6 +88,34 @@ There's no single right structure. Choose a framework that fits the situation, o
 - **Story → Bridge → Ask** — [Similar company] had [problem]. They [solved it this way]. Relevant to you?
 
 For the full catalog of frameworks with examples, see [frameworks.md](references/frameworks.md).
+
+---
+
+## Examples
+
+### Example 1: Observation → Problem → Proof → Ask
+
+**Subject:** hiring sres
+
+**Body:**
+
+Noticed you're hiring 3 SREs — usually means the on-call load is getting unsustainable for the current team.
+
+We built an alert routing layer that cut Brex's mean-time-to-acknowledge from 12 min to under 2. Their SRE team went from 24/7 rotation to business-hours-only within a quarter.
+
+Worth a 15-min look at whether something similar applies to your setup?
+
+### Example 2: Trigger → Insight → Ask
+
+**Subject:** series b ops
+
+**Body:**
+
+Congrats on the round — saw the announcement this morning.
+
+In my experience, the 6 months after a B usually surface a finance ops bottleneck: more vendors, more headcount, same 2-person finance team closing the books manually. Lattice hit that wall at almost exactly your stage and moved their close from 18 days to 5 after we helped automate the reconciliation piece.
+
+If that resonates at all, happy to share what the first 30 days looked like for them.
 
 ---
 
@@ -119,19 +152,6 @@ Before presenting, gut-check:
 - Does every sentence serve the reader, not the sender?
 - Is the personalization connected to the problem?
 - Is there one clear, low-friction ask?
-
----
-
-## What to Avoid
-
-- Opening with "I hope this email finds you well" or "My name is X and I work at Y"
-- Jargon: "synergy," "leverage," "circle back," "best-in-class," "leading provider"
-- Feature dumps — one proof point beats ten features
-- HTML, images, or multiple links
-- Fake "Re:" or "Fwd:" subject lines
-- Identical templates with only {{FirstName}} swapped
-- Asking for 30-minute calls in first touch
-- "Just checking in" follow-ups
 
 ---
 
